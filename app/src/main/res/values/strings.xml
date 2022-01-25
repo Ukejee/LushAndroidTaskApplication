@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Falcon 9 Launch</string>
+    <string name="generic_error_message">Something went wrong</string>
+    <string name="no_launch_found_text">No Launch Found</string>
+    <string name="launch_date_text">Launch Date:</string>
+    <string name="mission_status_text">Mission Status:</string>
+
+</resources>
