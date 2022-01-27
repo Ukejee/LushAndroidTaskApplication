@@ -22,7 +22,7 @@ class LaunchDataModule {
 
     //@AppScope
     @Provides
-    fun provideAirtimeTransferProvider(
+    fun provideLaunchRepository(
         launchNetworkDataSource: LaunchNetworkDataSource,
     ): LaunchRepositoryContract = LaunchRepository(
         launchNetworkDataSource
