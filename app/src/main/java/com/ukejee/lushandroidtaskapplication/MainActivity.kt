@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         savedInstanceState ?: addFragment()
     }
 
-    fun addFragment() {
+    private fun addFragment() {
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.fragmentContainer, LaunchListFragment())
         transaction.commit()
